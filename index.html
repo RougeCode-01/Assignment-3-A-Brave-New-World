@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Assignment 3 .</tw-noscript></noscript></tw-story>
-<tw-storydata name="Assignment 3 " startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="84059E1C-5DAB-4E0F-94D1-AB31241A885D" options="" tags="" zoom="0.3" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="1400,200" size="100,100">(set: $trust to 0)
+<tw-storydata name="Assignment 3 " startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="84059E1C-5DAB-4E0F-94D1-AB31241A885D" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="1400,200" size="100,100">(set: $trust to 0)
 (set: $SnuckAway to false)
 (set: $Helped to false)
 (set: $SawMap to false)
@@ -36,7 +36,7 @@ You start wiht some goodwill. The crew is skeptical but they are willing to give
 
 Suddenly, Captain Sable emerges, her expression grim.
 
-&quot;Storm’s coming! Everyone, get ready!&quot; The crew scrambles into action, tying down barrels, securing sails, and preparing for the oncoming chaos.
+&quot;Storm’s coming! Everyone, get ready!&quot; The crew starts tying down barrels, securing the sails, and preparing for the storm to come.
 
 What are you going to do?
 
@@ -152,12 +152,13 @@ Do you:
 [[Explain yourself|Explain]]
 [[Fight back|Thrown of the ship]]</tw-passagedata><tw-passagedata pid="20" name="Explain" tags="" position="2900,2600" size="100,100">You tell Sable about the map and the island, hoping for understanding.
 
-She listens, then unsheathes her cutlass. “And you thought sneaking around was the best way to get what you want?”
+She listens, but the she unsheathes her cutlass. 
+“And you thought sneaking around was the best way to get what you want?”
 
-The crew watches as she considers her next move.
+The entire crew watches.
 
 (if: $trust &gt;= 2)[
-She exhales sharply, then sheathes her blade. “You’re an idiot,” she mutters. “But you’re our idiot. We’ll make a stop.”
+She sheathes her blade. “You’re an idiot,” she mutters. “But you’re our idiot. We’ll make a stop.”
 
 [[Ending: A Chance at Redemption|Start]]
 ]
@@ -172,29 +173,29 @@ Before you can react, the crew grabs you. The ocean is cold as you hit the water
 
 </tw-passagedata><tw-passagedata pid="21" name="Thrown of the ship" tags="" position="2900,1200" size="100,100">The crew overpowers you and tosses you into the sea. You don’t survive. [[You drowned|Start]]</tw-passagedata><tw-passagedata pid="22" name="Truth" tags="" position="1700,2600" size="100,100">You take a deep breath and tell Sable everything about the ritual, your parents, and why you need to reach the island.
 
-She listens without interrupting, then sighs. “Desperation makes fools of us all.”
+She listens without interrupting. “Desperation makes fools of us all.”
 
-She glances at the crew, then back at you. “You’ve pulled your weight, and I don’t like debts. We’ll make a stop.”
+She looks at the crew, then back at you. “You’ve pulled your weight, and I don’t like debts. We’ll make a stop.”
 
 You reach the island. Whether the ritual succeeds or not is up to fate.
 
-[[Ending: A Chance at Redemption|Start]]</tw-passagedata><tw-passagedata pid="23" name="Lie" tags="" position="1900,2600" size="100,100">You scramble for an excuse, but Sable isn’t buying it.
+[[Ending: A Chance at Redemption|Start]]</tw-passagedata><tw-passagedata pid="23" name="Lie" tags="" position="1900,2600" size="100,100">You try to look for an excuse, but Sable isn’t buying it.
 
-“You’re a bad liar,” she says, unimpressed. “You want that island for something.”
+“You’re a horrible liar,” she says. “You want that island for something.”
 
 She gestures to the crew. “Toss them overboard.”
 
 You don’t get a second chance.
 
-[[Ending: Lost at Sea|Start]]</tw-passagedata><tw-passagedata pid="24" name="Convince" tags="" position="2300,2600" size="100,100">You plead with her to stop at the island, but she only scoffs. “And why would I do that for someone who hasn’t earned my trust?”
+[[Ending: Lost at Sea|Start]]</tw-passagedata><tw-passagedata pid="24" name="Convince" tags="" position="2300,2600" size="100,100">You beg her to stop at the island, but she only laughs. “And why would I do that for someone who hasn’t earned my trust?”
 
 You have no answer. The island vanishes into the distance, and with it, your last hope.
 
-[[Ending: The Dream Fades|Start]]</tw-passagedata><tw-passagedata pid="25" name="Silent" tags="" position="2500,2600" size="100,100">You say nothing. Sable studies you for a moment longer, then shakes her head.
+[[Ending: The Dream Fades|Start]]</tw-passagedata><tw-passagedata pid="25" name="Silent" tags="" position="2500,2600" size="100,100">You say nothing. Sable studies you, then shakes her head.
 
-“That’s what I thought,” she says, slamming the door in your face.
+“That’s what I thought,” she says, closing the door.
 
-The ship sails on. You are just another nameless pirate now, your dream lost forever.
+You miss your chance to go to the island. You are just another nameless pirate now, your dream lost forever.
 
 [[Ending: Bound to the Stormborn|Start]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
